@@ -36,6 +36,7 @@ body{
 
 .instagram-phone img{
   height: 40rem;
+  border-radius: 40px;
 }
 
 .instagram-continue{
@@ -60,8 +61,13 @@ body{
 
 .group:nth-child(1){
   min-height: 19rem;
+  border-radius: 10px;
 }
 
+.group:nth-child(2){
+  min-height: 3rem;
+  border-radius: 10px;
+}
 
 .instagram-logo{
   height: 3rem;
@@ -127,12 +133,12 @@ body{
 
 .app-download:nth-child(1){
   background-image: url('./imagens/apple-button.png');
-  border-radius: 20%;
+  border-radius: 5px;
 }
 
 .app-download:nth-child(2){
   background-image: url('./imagens/googleplay-button.png');
-  border-radius: 20%;
+  border-radius: 5px;
 }
 
 /*media queries*/
@@ -151,10 +157,11 @@ body{
   
   .instagram-wrapper{
     width: 90%;
+    display: block;
   }
 
   .instagram-phone{
-    display: none;
+    width: 100%;
   }
 
   .instagram-continue{
